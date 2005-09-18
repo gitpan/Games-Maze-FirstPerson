@@ -1,5 +1,9 @@
 Revision history for Games-Maze-FirstPerson
 
+0.02    2005/09/18
+        Credited John Gamble as the author of Games::Maze.
+        Added Sub::Uplevel as a prereq to stop bogus test failures :(
+
 0.01    2005/09/05
         First version, released on an unsuspecting world.
 

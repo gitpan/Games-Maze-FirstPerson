@@ -20,11 +20,11 @@ Games::Maze::FirstPerson - First person viewpoint of Games::Maze
 
 =head1 VERSION
 
-Version 0.01
+Version 0.02
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 =head1 SYNOPSIS
 
@@ -519,6 +519,8 @@ I will be notified, and then you'll automatically be notified of progress on
 your bug as I make changes.
 
 =head1 ACKNOWLEDGEMENTS
+
+See John Gamble's L<Games::Maze>.
 
 =head1 COPYRIGHT & LICENSE
 

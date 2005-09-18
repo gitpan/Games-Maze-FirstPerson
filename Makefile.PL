@@ -10,6 +10,7 @@ WriteMakefile(
     PL_FILES      => {},
     PREREQ_PM     => {
         'Games::Maze'     => 1.02,
+        'Sub::Uplevel'    => 0.09,
         'Test::More'      => 0,
         'Test::Exception' => 0.21,
     },
@@ -19,3 +20,7 @@ WriteMakefile(
     },
     clean => { FILES => 'Games-Maze-FirstPerson-*' },
 );
+
+# I don't really use Sub::Uplevel, but due to a problem with how
+# Test::Exception requires, I keep getting failing tests due to Sub::Uplevel
+# being missing.
