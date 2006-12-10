@@ -7,6 +7,7 @@ WriteMakefile(
     AUTHOR        => 'Curtis "Ovid" Poe <moc.oohay@eop_divo_sitruc>',
     VERSION_FROM  => 'lib/Games/Maze/FirstPerson.pm',
     ABSTRACT_FROM => 'lib/Games/Maze/FirstPerson.pm',
+    'LICENSE'     => 'perl',
     PL_FILES      => {},
     PREREQ_PM     => {
         'Games::Maze'     => 1.02,
